@@ -1,0 +1,5 @@
+﻿DELETE FROM task;
+DELETE FROM task_run;
+
+ALTER SEQUENCE task_id_seq RESTART WITH 1;
+ALTER SEQUENCE task_run_id_seq RESTART WITH 1;
